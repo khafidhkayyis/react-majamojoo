@@ -1,0 +1,28 @@
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Russo One', sans-serif;
+@import './responsive';
+.navbar{
+    background: #0D65D9;
+    &__container{
+        height: 78px;
+        margin: 0 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__collapse{
+        width: 40%;
+    }
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        a{
+            color: #fff;
+        }
+        a:hover{
+            color:#91BBF2;
+        }
+    }
+}
