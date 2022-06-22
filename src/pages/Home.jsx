@@ -4,6 +4,8 @@ import cardMoja from "../assets/images/cmajamojo.png";
 import Imgcard from "../assets/images/imgCard.png";
 import Imgcard1 from "../assets/images/imgCard1.png";
 import Imgcard2 from "../assets/images/imgCard2.png";
+import CardList from "../sectionHome/Section2";
+import Product from "../sectionHome/Section3";
 
 const Home = () => {
   const dataCards = [
@@ -53,13 +55,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      <div className="cardList">
-        <div className="cardList__title">
-          <h2>What’s New</h2>
-          <button>See All News</button>
-        </div>
-      </div>
+      <CardList />
+      <Product />
     </div>
   );
 };

@@ -1,0 +1,110 @@
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Russo One', sans-serif;
+.cardList{
+    margin: 71px 120px 0 120px;
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        h2{
+            font-family: 'Russo One', sans-serif;
+            font-size: 36px;
+            color: #0500F2;
+        }
+        button{
+            border-radius: 20px;
+            border: 1px solid  #0500F2;
+            color: #0500F2;
+            background: none;
+            padding: 7px 18px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
+        }
+
+    &__majamojo{
+        //    border: 1px solid red;
+        //    background-color: rgba(0, 0, 0, 0.366);
+           color: #fff;
+           width: 588px;
+           height: 280px;
+           padding: 15px 27px 21px 21px;
+        }
+    &__btn{
+            text-align: end;         
+            button{
+                padding: 9px 25px;
+                border-radius: 20px;
+                border: none;
+                background: #004CF2;
+                font-family: 'Russo One', sans-serif;
+                font-size: 14px;
+                color: #fff;
+             }
+             button.active {
+                background: #00A3FF;
+             }
+        }
+        
+    &__desc{
+            margin: 116px 0 0 0;
+            line-height: 29px;
+            span{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+            }
+            h3{
+                padding:0px 100px 0 0;
+                font-family: 'Russo One', sans-serif;
+                font-size: 23px;
+            }
+        }
+    &__item{
+            display: flex;
+            justify-content: space-between;
+            margin: 43px 0;
+        }
+    &__child{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__game{
+        // border: 1px solid red;
+        // background-color: rgba(0, 0, 0, 0.366);
+        width: 387px;
+        height: 196px;
+        padding: 10px 20px 0px 20px;
+        color: #fff;
+        background-repeat: no-repeat;
+        &__btn{
+            text-align: end;    
+            button{
+                padding: 9px 25px;
+                border-radius: 20px;
+                border: none;
+                background: #004CF2;
+                font-family: 'Russo One', sans-serif;
+                font-size: 14px;
+                color: #fff;
+             }
+
+             button.active {
+                background: #00A3FF;
+             }
+        }
+        &__desc{
+            line-height: 25px;
+            margin: 28px 0;
+            span{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            }
+            h3{
+                font-family: 'Russo One', sans-serif;
+                font-size: 24px;
+            }
+        }
+    }
+}

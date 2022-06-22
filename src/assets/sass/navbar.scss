@@ -2,7 +2,11 @@
 // font-family: 'Russo One', sans-serif;
 @import './responsive';
 .navbar{
-    background: #0D65D9;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(10px);
     &__container{
         height: 78px;
         margin: 0 120px;
