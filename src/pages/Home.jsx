@@ -6,6 +6,7 @@ import Imgcard1 from "../assets/images/imgCard1.png";
 import Imgcard2 from "../assets/images/imgCard2.png";
 import CardList from "../sectionHome/Section2";
 import Product from "../sectionHome/Section3";
+import Know from "../sectionHome/Section4";
 
 const Home = () => {
   const dataCards = [
@@ -57,6 +58,7 @@ const Home = () => {
       </div>
       <CardList />
       <Product />
+      <Know />
     </div>
   );
 };

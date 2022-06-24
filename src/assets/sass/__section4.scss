@@ -1,0 +1,42 @@
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Russo One', sans-serif;
+.know{
+    &__title{
+        font-family: 'Russo One', sans-serif;
+        font-size: 36px;
+        color: #0500F2;
+        padding-bottom: 47px;
+    }
+
+    &__card{
+        display: flex;
+        gap: 24px;
+        &__item{
+            background-image: url("/assets/images/Rectangle 45.png");
+            width: 588px;
+            height: 286px;
+            padding:31px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        
+            &__title{
+                font-family: 'Russo One', sans-serif;
+                font-size: 40px;
+                padding-bottom: 7px;
+            }
+            &__desc{
+                &__wrapper{
+                    display: flex;
+                    gap: 16px;
+                }
+                &__paraf{
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    }
