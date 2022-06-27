@@ -12,7 +12,7 @@
         display: flex;
         gap: 24px;
         &__item{
-            background-image: url("/assets/images/Rectangle 45.png");
+            background-image: url("/assets/images/Rectangle 46.png");
             width: 588px;
             height: 286px;
             padding:31px;
@@ -37,6 +37,9 @@
                     font-size: 14px;
                 }
             }
+        }
+        &__item:first-child{
+            background-image: url("/assets/images/Rectangle 45.png");
         }
     }
     }
